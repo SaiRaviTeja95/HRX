@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Gobold;
+    src: url(../Font/Gobold\ Bold\ Italic.otf) format("woff2"), url(../Font/Gobold\ Bold\ Italic.otf) format("woff"), url(/path/to/GoboldBold-Italic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: GoboldUplow;
+    src: url(..Font/Gobold\ Uplow.otf);
+}
+
+body {
+    background-color: black;
+}
+
+#root {
+    width: 23.44rem;
+    height: 73.63rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.flex {
+    width: 23.44rem;
+    height: 4.44rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a0a0a;
+}
+
+.logo {
+    width: 3.31rem;
+    height: 3.31rem;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.brandName {
+    width: 14.25rem;
+    height: 1.69rem;
+    margin-top: 22px;
+    margin-left: 14px;
+    font-family: Gobold;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.Log {
+    width: 5%;
+    margin-left: 26.5px;
+}
+
+.MileStone {
+    width: 14.63rem;
+    height: 1.31rem;
+    margin-top: 38px;
+    margin-left: 34px;
+    font-family: Gobold;
+    font-size: 1.00rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.44;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: #d8d7d7;
+}
+
+#file {
+    width: 83%;
+    margin-left: 34.5px;
+    background-color: green;
+}
+
+progress {
+    border: 0;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.Box {
+    width: 19.19rem;
+    height: 6.44rem;
+    margin-top: 50.5px;
+    margin-left: 34px;
+    border-radius: 0.44rem;
+    background-color: #db9200;
+}
+
+.Box1 {
+    width: 19.19rem;
+    height: 6.44rem;
+    margin-top: 23px;
+    margin-left: 34px;
+    border-radius: 0.44rem;
+    background-color: #ad1f34;
+}
+
+.Box2 {
+    width: 19.19rem;
+    height: 6.44rem;
+    margin-top: 23px;
+    margin-left: 34px;
+    border-radius: 0.44rem;
+    background-color: #adadad;
+}
+
+.Box3 {
+    width: 19.19rem;
+    height: 6.44rem;
+    margin-top: 20px;
+    margin-left: 34px;
+    border-radius: 0.44rem;
+    background-color: #db9200;
+}
+
+.Description {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Category {
+    width: 5.06rem;
+    height: 1.44rem;
+    margin-top: 15px;
+    margin-left: 21px;
+    text-shadow: 0.25rem 0.25rem 0.13rem rgba(16, 6, 6, 0.23);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.67;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: white;
+}
+
+.Category1 {
+    width: 10rem;
+    height: 1.44rem;
+    margin-top: 16px;
+    margin-left: 6px;
+    text-shadow: 0.25rem 0.25rem 0.13rem rgba(16, 6, 6, 0.23);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.67;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: white;
+}
+
+.Category2 {
+    width: 4.75rem;
+    height: 1.44rem;
+    margin-top: 15px;
+    margin-left: 21px;
+    text-shadow: 0.25rem 0.25rem 0.13rem rgba(16, 6, 6, 0.23);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.67;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: white;
+}
+
+.Category3 {
+    width: 7.94rem;
+    height: 1.44rem;
+    margin-top: 15px;
+    margin-left: 21px;
+    text-shadow: 0.25rem 0.25rem 0.13rem rgba(16, 6, 6, 0.23);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.67;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: white;
+}
+
+.TaskButton {
+    width: 3.63rem;
+    height: 1.44rem;
+    margin-top: 15px;
+    margin-left: 127px;
+    margin-right: 20px;
+    border-radius: 0.75rem;
+    background-color: rgba(48, 47, 47, 0.52);
+}
+
+.Task {
+    width: 1.56rem;
+    height: 1.06rem;
+    margin-top: 3px;
+    margin-left: 17px;
+    font-family: GoboldUplow;
+    font-size: 0.69rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.64;
+    letter-spacing: 0.00rem;
+    text-align: left;
+    color: white;
+}
+
+.Task1 {
+    width: 1.56rem;
+    height: 1.06rem;
+    margin-top: 3px;
+    margin-left: 17px;
+    margin-right: 20px;
+    font-family: GoboldUplow;
+    font-size: 0.69rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.64;
+    letter-spacing: 0.00rem;
+    text-align: left;
+    color: white;
+}
+
+.CheckBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* 
+input[type="checkbox"] {
+    width: 1.63rem;
+    height: 1.63rem;
+    margin-top: 13px;
+    opacity: 0.68;
+    background-color: rgba(0, 0, 0, 0.54);
+} */
+
+.Days {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    position: relative;
+}
+
+label::before {
+    content: "";
+    background: url("../img/check-circle.svg");
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: -44px;
+    top: -8px;
+    transform: scale(0) rotateZ(180deg);
+    transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+}
+
+input[type="checkbox"]:checked+label::before {
+    transform: scale(1) rotateZ(0deg);
+}
+
+
+/* #27ae60 */
+
+label::after {
+    content: "";
+    border: 2px solid rgba(0, 0, 0, 0.54);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -42px;
+    top: -6px;
+    border-radius: 50%;
+}
+
+.Day {
+    width: 2.38rem;
+    height: 0.81rem;
+    object-fit: contain;
+    font-family: Gobold;
+    font-size: 0.63rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.8;
+    letter-spacing: 0.00rem;
+    text-align: left;
+    color: white;
+}
+
+.Save {
+    width: 4.63rem;
+    height: 2.56rem;
+    margin-top: 49px;
+    margin-left: 151px;
+    font-family: Gobold;
+    font-size: 1.94rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.65;
+    letter-spacing: 0.13rem;
+    text-align: left;
+    color: #474747;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    width: 19.81rem;
+    height: 22.13rem;
+    margin-top: 229px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.69rem;
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+.modal p {
+    width: 14.13rem;
+    height: 5.81rem;
+    padding-top: 70px;
+    margin-left: 44px;
+    font-family: GoboldUplow;
+    font-size: 1.63rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.modal button {
+    width: 5rem;
+    height: 3rem;
+    margin-top: 10rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+}

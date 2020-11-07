@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Gobold;
+    src: url(../Font/Gobold\ Bold\ Italic.otf) format("woff2"), url(../Font/Gobold\ Bold\ Italic.otf) format("woff"), url(/path/to/GoboldBold-Italic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: GoboldUplow;
+    src: url(../Font/Gobold\ Uplow.otf);
+}
+
+body {
+    background-color: black;
+}
+
+#root {
+    width: 23.44rem;
+    height: 50.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.flex {
+    width: 23.44rem;
+    height: 4.44rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 3.31rem;
+    height: 3.31rem;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.brandName {
+    width: 14.25rem;
+    height: 1.69rem;
+    margin-top: 22px;
+    margin-left: 14px;
+    font-family: Gobold;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.Log {
+    width: 5%;
+}
+
+.Time {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Month {
+    width: 15.94rem;
+    height: 1.94rem;
+    margin-top: 38px;
+    margin-left: 35px;
+    margin-right: 10px;
+    font-family: Gobold;
+    font-size: 1.50rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.38;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: #d8d7d7;
+}
+
+.arrow {
+    width: .56rem;
+    height: 1.13rem;
+    margin-top: 57px;
+    margin-left: 28px;
+}
+
+.arrow1 {
+    width: .56rem;
+    height: 1.13rem;
+    margin-top: 57px;
+    margin-right: 28.2px;
+}
+
+.Data {
+    margin-top: 52.4px;
+}
+
+.BoxData {
+    margin-right: 26px;
+}
+
+.Week {
+    width: 7rem;
+    height: 3.19rem;
+    margin-left: -20px;
+    font-family: Gobold;
+    font-size: 1.00rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    transform: rotate(270deg);
+}
+
+.Box1 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 6.1px;
+    margin-top: -54px;
+    margin-left: 54px;
+    margin-bottom: 5.7px;
+}
+
+.Box2 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 6.1px;
+    margin-top: -50px;
+    margin-left: 54px;
+    margin-bottom: 5.7px;
+}
+
+.Box3 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 6.1px;
+    margin-top: -50px;
+    margin-left: 54px;
+    margin-bottom: 5.7px;
+}
+
+.Box4 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 6.1px;
+    margin-top: -50px;
+    margin-left: 54px;
+    margin-bottom: 5.7px;
+}
+
+.box1 {
+    width: 5.88rem;
+    height: 6.75rem;
+    border-radius: 3px;
+    background-color: #db9200;
+}
+
+.box2 {
+    width: 5.88rem;
+    height: 6.75rem;
+    border-radius: 3px;
+    background-color: #ad1f34;
+}
+
+.box3 {
+    width: 5.88rem;
+    height: 6.75rem;
+    border-radius: 3px;
+    background-color: #adadad;
+}
+
+.Warm {
+    width: 3.19rem;
+    height: 2.81rem;
+    margin-top: 20.7px;
+    margin-left: 15.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+.Hydrate {
+    width: 4.31rem;
+    height: 1.44rem;
+    margin-top: 20.3px;
+    margin-left: 10.8px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.End {
+    width: 2.88rem;
+    height: 2.81rem;
+    margin-top: 20.7px;
+    margin-left: 10.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Early {
+    width: 3.00rem;
+    height: 2.81rem;
+    margin-top: 17.6px;
+    margin-left: 15.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Takes {
+    width: 4.06rem;
+    height: 4.19rem;
+    margin-top: 17.6px;
+    margin-left: 12.8px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Hale {
+    width: 3.88rem;
+    height: 2.81rem;
+    margin-top: 17.6px;
+    margin-left: 10.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.BigFlex {
+    width: 2.44rem;
+    height: 2.81rem;
+    margin-top: 17.8px;
+    margin-left: 15.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Thanks {
+    width: 3.69rem;
+    height: 2.81rem;
+    margin-top: 17.8px;
+    margin-left: 12.8px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Insta {
+    width: 2.69rem;
+    height: 2.81rem;
+    margin-top: 17.8px;
+    margin-left: 10.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Goal {
+    width: 3.25rem;
+    height: 4.19rem;
+    margin-top: 17.6px;
+    margin-left: 15.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Boss {
+    width: 2.94rem;
+    height: 2.81rem;
+    margin-top: 17.6px;
+    margin-left: 12.8px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.Real {
+    width: 2.31rem;
+    height: 2.81rem;
+    margin-top: 17.6px;
+    margin-left: 10.3px;
+    text-shadow: 0.50rem 0.75rem 0.13rem rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+    font-size: 1.13rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.SnapShot {
+    margin-top: 47px;
+}
+
+.SnapShot div {
+    width: 4.13rem;
+    height: 4.13rem;
+    margin-left: 155px;
+    border-radius: 50%;
+    background-color: #d8d7d7;
+}
+
+.Camera {
+    width: 1.88rem;
+    height: 1.69rem;
+    margin-top: 17.1px;
+    margin-left: 18px;
+    object-fit: contain;
+}
+
+.Snapshot {
+    width: 9.25rem;
+    height: 1.00rem;
+    margin-top: 9px;
+    margin-left: 114px;
+    font-family: Gobold;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.92;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d8d7d7;
+}
+
+.modal-container {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    width: 19.81rem;
+    height: 22.13rem;
+    margin-top: 229px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.69rem;
+    text-align: center;
+    background-color: #e8e8e8;
+}
+
+.modal p {
+    width: 14.13rem;
+    height: 5.81rem;
+    padding-top: 70px;
+    margin-left: 44px;
+    font-family: GoboldUplow;
+    font-size: 1.63rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.modal button {
+    width: 5rem;
+    height: 3rem;
+    margin-top: 10rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.27);
+    font-family: Gobold;
+}

@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Gobold;
+    src: url(Font/Gobold\ Bold\ Italic.otf) format("woff2"), url(Font/Gobold\ Bold\ Italic.otf) format("woff"), url(/path/to/GoboldBold-Italic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: GoboldUplow;
+    src: url(Font/Gobold\ Uplow.otf);
+}
+
+body {
+    background-color: black;
+}
+
+#root {
+    width: 23.44rem;
+    height: 50.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(./img/FC_Look_04-05.png) no-repeat;
+    background-color: black !important;
+    object-fit: cover;
+}
+
+.flex {
+    width: 23.44rem;
+    height: 4.44rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.logo {
+    width: 3.31rem;
+    height: 3.31rem;
+    margin-top: 9px;
+}
+
+.brandName {
+    width: 14.25rem;
+    height: 1.69rem;
+    margin-top: 22px;
+    object-fit: contain;
+    font-family: Gobold;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.Log {
+    width: 5%;
+}
+
+.Category {
+    width: 9.25rem;
+    height: 7.56rem;
+    margin-top: 173px;
+    margin-left: 190px;
+    margin-right: 37px;
+    font-family: GoboldUplow;
+    font-size: 2.00rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.19;
+    letter-spacing: 0.25rem;
+    text-align: right;
+    color: #f5f5f5;
+}
+
+.Criteria {
+    width: 19.63rem;
+    height: 1.75rem;
+    margin-top: 188px;
+    margin-left: 31px;
+    font-family: Gobold;
+    font-size: 1.31rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.76;
+    letter-spacing: 0.19rem;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.Yoga {
+    width: 12.06rem;
+    height: 3.06rem;
+    margin-top: 43px;
+    margin-left: 94px;
+    margin-bottom: 19px;
+    border-radius: 2.44rem;
+    background-image: linear-gradient(to bottom, #e0e0e0, #707070 137%);
+    cursor: pointer;
+}
+
+.Yoga p {
+    width: 3.88rem;
+    height: 1.94rem;
+    margin-left: 66px;
+    font-family: Gobold;
+    font-size: 1.50rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.54;
+    letter-spacing: 0.19rem;
+    text-align: center;
+    color: #000000;
+}
+
+.Or {
+    width: 1.63rem;
+    height: 1.75rem;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    font-family: Gobold;
+    font-size: 1.31rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.76;
+    letter-spacing: 0.19rem;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.Training {
+    width: 12.06rem;
+    height: 3.06rem;
+    margin-left: 94px;
+    border-radius: 2.44rem;
+    background-image: linear-gradient(to bottom, #bc1a32, #921225);
+    cursor: pointer;
+}
+
+.Training p {
+    width: 7.25rem;
+    height: 1.94rem;
+    margin-left: 38px;
+    font-family: Gobold;
+    font-size: 1.50rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.54;
+    letter-spacing: 0.19rem;
+    text-align: left;
+    color: #000000;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        width: 123%;
+    }
+    .Category {
+        margin-left: 11rem;
+        font-size: 1.5rem;
+    }
+    .Criteria {
+        margin-left: 1rem;
+    }
+    .Yoga,
+    .Training {
+        margin-left: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        width: 123%;
+    }
+    .Category {
+        margin-left: 13rem;
+        font-size: 1.5rem;
+    }
+    .Criteria {
+        margin-left: 3rem;
+    }
+    .Yoga,
+    .Training {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #root {
+        width: 100%;
+    }
+    .flex {
+        width: 100%;
+    }
+}
